@@ -11,9 +11,9 @@
 ### vault
 variable vault_addr {
   type = string
-  description = "Adresse des Vaults"
+  description = "HCP vault address"
   sensitive = false
-  default = "https://10.28.5.100:8200"
+  #default = ""
 }
 
 variable "vault_token" {
